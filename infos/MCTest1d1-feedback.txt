@@ -1,0 +1,20 @@
+
+Folgende Antworten wurden erwartet und dienen als Grundlage für die Beurteilung:
+
+ 1. Welche der folgenden Aussagen treffen bezüglich Objekt- und Klassenmethoden zu?
+    
+    Richtig:  Klassenmethoden werden mit 'static' definiert.                        (1A) +
+    Richtig:  Klassenmethoden dürfen Klassenmethoden aufrufen.                      (1B) +
+    Richtig:  Klassenmethoden dürfen auf Klassenvariablen zugreifen.                (1C) +
+    Falsch:   Objektmethoden geben niemals ein Ergebnis zurück (void).              (1D) +
+    Richtig:  Nicht-statische Methoden dürfen statische Methoden aufrufen.          (1E) +
+
+ 2. Welche der folgenden Aussagen gelten in Java für die unterschiedlichen
+    Arten von Variablen und Parametern?
+    
+    Richtig:  Objektvariablen werden bei Erzeugung des Objekts angelegt.            (2A) +
+    Richtig:  Klassenvariablen werden automatisch vorinitialisiert.                 (2B) +
+    Falsch:   Objektvariablen und lokale Variablen dürfen nicht gleich heißen.      (2C) +
+    Falsch:   Formale Parameter werden meist als 'private' deklariert.              (2D) -
+    Richtig:  Klassenvariablen werden mit 'static' deklariert.                      (2E) +
+
