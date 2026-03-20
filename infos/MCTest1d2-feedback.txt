@@ -1,0 +1,20 @@
+
+Folgende Antworten wurden erwartet und dienen als Grundlage für die Beurteilung:
+
+ 1. Welche der folgenden Aussagen treffen auf 'this' und 'this(...)' zu?
+    
+    Falsch:   'this(...);' kann nur im Default-Konstruktor aufgerufen werden.        (1A) +
+    Richtig:  'this != null' gibt immer 'true' zurück.                               (1B) +
+    Richtig:  Die Pseudovariable 'this' ist nur lesbar, nicht schreibbar.            (1C) +
+    Richtig:  In Objektmethoden bezeichnet 'this' das aktuelle Objekt.               (1D) +
+    Richtig:  In einem Konstruktor ist 'this' das gerade erzeugte Objekt.            (1E) +
+
+ 2. Welche der folgenden Aussagen stimmen in Bezug auf die Innen- und Außensicht
+    eines abstrakten Datentyps?
+    
+    Falsch:   Änderungen der Außensicht lassen die Innensicht unberührt.             (2A) +
+    Richtig:  Die Außensicht beschreibt, was für die Verwendung nötig ist.           (2B) +
+    Richtig:  Die Innensicht beschreibt Implementierungsdetails.                     (2C) +
+    Falsch:   Public Methoden betreffen nur die Außensicht.                          (2D) +
+    Richtig:  Private Variablen sind in jedem Objekt der gleichen Klasse zugreifbar. (2E) +
+
