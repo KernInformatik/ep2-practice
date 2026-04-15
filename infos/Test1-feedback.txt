@@ -1,0 +1,86 @@
+     CheckoutCounter :  5 points
+            Customer :  3 points
+       CustomerQueue :  2 points
+  ProductQuantityMap :  1 points
+               Total : 11 points
+# Exam Feedback for 12523656
+
+## Disclaimer
+
+
+This report was generated automatically during the grading process of this test. It serves as a tool to locate and identify faulty methods. However, the actual grading was done by hand and may diverge from this document. 
+
+The final score/grade of this test will be distributed by eMail.
+
+---
+
+## Class Customer
+### Customer(int)
+
+### addToCart(Product product, Quantity amount)
+
+> add existing product in given quantity to cart: failed
+
+### removeFromCart(Quantity)
+
+> check return value: failed
+
+---
+
+## Class CustomerQueue
+### CustomerQueue(int)
+
+### CustomerQueue()
+
+### poll()
+
+### add(Customer)
+
+### size()
+
+---
+
+## Class ProductQuantityMap
+### ProductQuantityMap()
+
+### put()
+
+> Store various products (new and existing ones) in map triggering expansion: failed
+
+> Store all new products in map without expansion.: failed
+
+### contains()
+
+> check if map contains given key: failed
+
+### get()
+
+### getKeys()
+
+> get all keys stored within the map: failed
+
+### size()
+
+---
+
+## Class CheckoutCounter
+### processNextCustomer()
+
+> check if processed customer is removed from the waiting line: failed
+
+### reverse()
+
+> check inversion of waiting line: failed
+
+### addToLine(Customer)
+
+### CheckoutCounter()
+
+### addToLine(Customer,int)
+
+> insert customers at end of line: failed
+
+> insert customers at start of line: failed
+
+> insert customers into waiting line at specified position: failed
+
