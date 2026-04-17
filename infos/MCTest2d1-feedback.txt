@@ -1,0 +1,25 @@
+
+Folgende Antworten wurden erwartet und dienen als Grundlage für die Beurteilung:
+
+ 1. q sei eine Variable mit einem einfachen binären Suchbaum (nicht AVL-Baum)
+    ganzer Zahlen, der durch diese Anweisungen aufgebaut wurde:
+        STree q = new STree(); q.add(4); q.add(7); q.add(6);
+    Welche der folgenden Aussagen treffen auf q zu?
+    
+    Falsch:   Der Knoten mit Wert 7 ist ein Blattknoten.                               (1A) +
+    Richtig:  Der Baum hat maximale Tiefe für einen Baum mit 3 Knoten.                 (1B) +
+    Falsch:   Der Knoten mit Wert 7 ist Elter von dem mit Wert 4.                      (1C) +
+    Falsch:   Der Knoten mit Wert 7 ist Kind von dem mit Wert 6.                       (1D) +
+    Richtig:  Der Knoten mit Wert 4 ist die Wurzel.                                    (1E) +
+
+ 2. p sei eine Variable mit einer leeren assoziativen Datenstruktur, wobei Schlüssel
+    und Werte vom Typ 'String' sind (und 'null' sein können).  Q und Y seien zwei
+    voneinander verschiedene String-Konstanten (static final).  Nach welchen der
+    folgenden Aufruf-Sequenzen liefert 'p.get(Q)' den String in Y als Ergebnis?
+    
+    Richtig:  p.put(Q, Y); p.put(Y, Q); p.put(p.get(Q), p.get(Y));                     (2A) +
+    Falsch:   p.put(p.get(Q), p.get(Y)); p.put(Q, Q); p.put(Y, Y);                     (2B) +
+    Richtig:  p.put(Y, Q); p.put(Q, Y); p.put(p.get(Y), p.get(Q));                     (2C) +
+    Falsch:   p.put(Q, Q); p.put(Y, Y); p.put(p.get(Y), p.get(Q));                     (2D) +
+    Richtig:  p.put(Y, Q); p.put(p.get(Y), p.get(Q)); p.put(Q, Y);                     (2E) +
+
