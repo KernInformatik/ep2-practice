@@ -1,0 +1,23 @@
+
+Folgende Antworten wurden erwartet und dienen als Grundlage für die Beurteilung:
+
+ 1. V sei ein Referenztyp (Klasse oder Interface), und
+    r sei eine Variable eines Referenztyps mit 'r != null'.
+    Welche der folgenden Aussagen treffen für alle V und r zu?
+    
+    Falsch:   Liefert '(V)r' keinen Laufzeitfehler, dann gilt '!(r instanceof V)'.  (1A) +
+    Falsch:   'r.getClass()' liefert ein Objekt vom Typ 'String'.                   (1B) +
+    Falsch:   Gilt 'r instanceof V', dann ist V ein Interface.                      (1C) +
+    Falsch:   Aus 'r.getClass() == V.class' folgt: 'V ist ein Interface'.           (1D) +
+    Falsch:   Aus 'r instanceof V' folgt: 'r.getClass() == V.class'.                (1E) +
+
+ 2. X sei ein Referenztyp (Klasse oder Interface), und z sei eine durch
+    'W z = new S();' deklarierte Variable, wobei der Compiler keinen Fehler meldet.
+    Welche der folgenden Aussagen treffen für alle passenden X, W, S und z zu?
+    
+    Falsch:   '(X)z' liefert Laufzeitfehler wenn X nicht Untertyp von S ist.        (2A) +
+    Richtig:  Mit 'S ist Untertyp von X' gilt: '((X)z).getClass() == S.class'       (2B) +
+    Richtig:  S ist Untertyp von W.                                                 (2C) +
+    Richtig:  '(X)null' liefert zur Laufzeit keinen Fehler.                         (2D) -
+    Richtig:  '(X)z' liefert keinen Laufzeitfehler wenn W Untertyp von X ist.       (2E) +
+
