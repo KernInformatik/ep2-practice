@@ -1,0 +1,23 @@
+
+Folgende Antworten wurden erwartet und dienen als Grundlage für die Beurteilung:
+
+ 1. k, l und m seien Objektreferenzen ungleich null.
+    Welche der folgenden Bedingungen müssen für jede Implementierung der Methoden
+    'boolean equals(Object obj)' und 'int hashCode()' in Java gelten?
+    
+    Richtig:  Aus 'l.equals(m)' folgt 'm.equals(l)'.                      (1A) +
+    Richtig:  'l.equals(null)' gibt 'false' zurück.                       (1B) +
+    Falsch:   'null.equals(l)' gibt 'false' zurück.                       (1C) +
+    Falsch:   Aus 'l.equals(m)' folgt '!m.equals(l)'.                     (1D) +
+    Richtig:  Aus 'k.equals(l)' und 'l.equals(m)' folgt 'k.equals(m)'.    (1E) +
+
+ 2. Q und R seien Referenztypen, sodass der Compiler folgenden Programmtext
+    fehlerfrei compiliert: 'R q = new Q();  q.x();'
+    Welche der folgenden Aussagen treffen für alle passenden Q, R, q und x() zu?
+    
+    Richtig:  Es gilt: 'q instanceof R'.                                  (2A) +
+    Richtig:  q kann verwendet werden, wo ein Objekt von R erwartet wird. (2B) +
+    Richtig:  Die Methode x() muss in R und Q vorhanden sein.             (2C) +
+    Falsch:   Q muss ein Interface sein (keine Klasse).                   (2D) +
+    Falsch:   Durch 'q.x()' wird die Methode in R ausgeführt.             (2E) +
+
