@@ -1,0 +1,48 @@
+  DistanceComparator :  1 points
+            Universe :  2 points
+     UniverseTreeMap : 13 points
+               Total : 16 points
+# Exam Feedback for 12523656
+
+## Disclaimer
+
+
+This report was generated automatically during the grading process of this test. It serves as a tool to locate and identify faulty methods. However, the actual grading was done by hand and may diverge from this document. 
+
+The final score/grade of this test will be distributed by eMail.
+
+---
+
+## Class DistanceComparator
+### 
+
+### compare(Physical,Physical)
+
+---
+
+## Class UniverseTreeMap
+### 
+
+### addPrefix()
+
+> regular map: failed
+
+### toString()
+
+### isDegenerate()
+
+> empty or mono map: failed
+
+### addIfMinimum()
+
+---
+
+## Class Universe
+### 
+
+### addBodyIfMinimum()
+
+### addPrefixToNames()
+
+> prefix whole map: failed
+
