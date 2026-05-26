@@ -1,0 +1,21 @@
+
+Folgende Antworten wurden erwartet und dienen als Grundlage für die Beurteilung:
+
+ 1. M und B seien Referenztypen, sodass der Compiler folgenden Programmtext
+    fehlerfrei compiliert: 'B a = new M();  a.g();'
+    Welche der folgenden Aussagen treffen für alle passenden M, B, a und g() zu?
+    
+    Falsch:   Die Methode g() muss in B vorkommen, nicht in M.                          (1A) -
+    Falsch:   B muss ein Interface sein (keine Klasse).                                 (1B) +
+    Richtig:  M kann kein Interface, sondern muss eine Klasse sein.                     (1C) +
+    Falsch:   Durch 'a.g()' wird die Methode in B ausgeführt.                           (1D) +
+    Richtig:  M ist Untertyp von B.                                                     (1E) +
+
+ 2. Welche der folgenden Aussagen treffen auf Iteratoren in Java zu?
+    
+    Richtig:  Mehrere Iteratoren können gleichzeitig über das selbe Objekt laufen.      (2A) +
+    Richtig:  Das Interface Iterator spezifiziert die Methoden next() und hasNext().    (2B) +
+    Richtig:  Iterator-Implementierungen sind eigene Klassen.                           (2C) +
+    Richtig:  Eine Collection kann mehrere Iterator-Implementierungen enthalten.        (2D) +
+    Richtig:  Iteratoren vermeiden das Halten von Kopien der iterierten Daten.          (2E) +
+
