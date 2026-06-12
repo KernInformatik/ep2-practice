@@ -1,0 +1,20 @@
+
+Folgende Antworten wurden erwartet und dienen als Grundlage für die Beurteilung:
+
+ 1. Welche der folgenden Aussagen treffen auf Ausnahmen und Ausnahmebehandlungen in Java zu?
+    
+    Falsch:   Objekte aller Referenztypen sind als Exceptions verwendbar.                  (1A) +
+    Falsch:   Ausnahmen vom Typ Exception sind unüberprüft (unchecked).                    (1B) +
+    Falsch:   Jeder Programmabbruch endet in der Ausgabe eines Stack-Trace.                (1C) +
+    Richtig:  Das Ergebnis von getMessage() soll die Fehlerart konkretisieren.             (1D) +
+    Richtig:  finally-Blöcke werden trotz aufgetretener Ausnahme ausgeführt.               (1E) +
+
+ 2. Welche der folgenden Aussagen treffen auf Klassen und Interfaces im
+    Java-Collections-Framework zu?
+    
+    Richtig:  TreeSet<E> verbietet mehrere gleiche Einträge.                               (2A) +
+    Richtig:  Aus einer Queue<E> kann man Elemente mittels poll und remove löschen.        (2B) +
+    Richtig:  LinkedHashSet<E> ist sowohl Hashtabelle als auch lineare Liste.              (2C) +
+    Richtig:  LinkedList<E> ist Untertyp von Collection<E>                                 (2D) +
+    Falsch:   Set<E> erweitert List<E> um zusätzliche Methoden.                            (2E) +
+
