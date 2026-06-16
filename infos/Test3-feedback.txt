@@ -1,0 +1,50 @@
+CelestialBodyHashSet :  4 points
+CelestialBodyHashSetIterator :  7 points
+                Star :  2 points
+            Universe :  7 points
+               Total : 20 points
+# Exam Feedback for 12523656
+
+## Disclaimer
+
+
+This report was generated automatically during the grading process of this test. It serves as a tool to locate and identify faulty methods. However, the actual grading was done by hand and may diverge from this document. 
+
+The final score/grade of this test will be distributed by eMail.
+
+---
+
+## Class CelestialBodyHashSetIterator
+### 
+
+### hasNext()
+
+### next()
+
+---
+
+## Class CelestialBodyHashSet
+### 
+
+### equals(java.lang.Object)
+
+### hashCode()
+
+---
+
+## Class Star
+### 
+
+### totalMass()
+
+---
+
+## Class Universe
+### 
+
+### intersectWith(Universe)
+
+### mass()
+
+### addBody(CelestialBody)
+
