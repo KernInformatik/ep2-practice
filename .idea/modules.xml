@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AB1.1/AB1.1.iml" filepath="$PROJECT_DIR$/AB1.1/AB1.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AB1.2/AB1.2.iml" filepath="$PROJECT_DIR$/AB1.2/AB1.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AB1.3/AB1.3.iml" filepath="$PROJECT_DIR$/AB1.3/AB1.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AB2.1/AB2.1.iml" filepath="$PROJECT_DIR$/AB2.1/AB2.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AB2.2/AB2.2.iml" filepath="$PROJECT_DIR$/AB2.2/AB2.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AB2.3/AB2.3.iml" filepath="$PROJECT_DIR$/AB2.3/AB2.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AB3.1/AB3.1.iml" filepath="$PROJECT_DIR$/AB3.1/AB3.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AB3.2/AB3.2.iml" filepath="$PROJECT_DIR$/AB3.2/AB3.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AB3.3/AB3.3.iml" filepath="$PROJECT_DIR$/AB3.3/AB3.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AB4.1/AB4.1.iml" filepath="$PROJECT_DIR$/AB4.1/AB4.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AB4.2/AB4.2.iml" filepath="$PROJECT_DIR$/AB4.2/AB4.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AB4.3/AB4.3.iml" filepath="$PROJECT_DIR$/AB4.3/AB4.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/git-practice.iml" filepath="$PROJECT_DIR$/.idea/git-practice.iml" />
+    </modules>
+  </component>
+</project>
